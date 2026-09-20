@@ -1,0 +1,27 @@
+
+@import "tailwindcss";
+
+:root {
+  --primary-accent-orange: #FF3D00;
+  --main-bg-cream: #F7F5F0;
+  --contrast-text-dark: #111111;
+  --color-outlines-muted: #D8D5CD;
+  --sub-heading-charcoal: #2A2A2A;
+  --headings-font-dela: "Dela Gothic One", sans-serif;
+  --model-font-sans: "Plus Jakarta Sans", sans-serif;
+  --body-font-mono: "Space Mono", monospace;
+}
+
+@theme {
+  /* Colors */
+  --color-accent-orange: var(--primary-accent-orange);
+  --color-bg-cream: var(--main-bg-cream);
+  --color-text-dark: var(--contrast-text-dark);
+  --color-outlines-muted: var(--color-outlines-muted);
+  --color-sub-charcoal: var(--sub-heading-charcoal);
+
+  /* Fonts */
+  --font-dela: var(--headings-font-dela);
+  --font-sans: var(--model-font-sans);
+  --font-mono: var(--body-font-mono);
+}
