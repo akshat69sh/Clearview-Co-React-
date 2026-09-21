@@ -15,7 +15,7 @@ function Header() {
                 <button className='border p-1.5 items-center hover:cursor-pointer border-outlines-muted'>
                     <LucideShoppingBag/>
                 </button>
-                <button className='flex justify-between gap-1.5 border items-center p-1.5  hover:cursor-pointer border-black  '>
+                <button className='flex justify-between gap-1.5 border items-center p-1.5  hover:cursor-pointer border-outlines-muted  '>
                     <span className='text-[1rem] bg-(--primary-accent-orange) font-sans p-1 h-full'>Shop Now</span> <span><FaceSlightlySmiling /></span>
                 </button>
             </div>

@@ -3,8 +3,8 @@ import { Flower, MoveRight } from "lucide-react";
 
 function LandingPage() {
   return (
-    <div className="flex justify-between bg-outlines-muted w-full h-screen pt-12  ">
-      <div className="flex justify-between  h-full w-[75%] bg-bg-cream ">
+    <div className="flex justify-between bg-outlines-muted border w-full h-screen pt-12  ">
+      <div className="flex justify-between border h-full w-[75%] bg-bg-cream ">
         {/* <img className='w-full h-auto object-cover   origin-center' src={headImg} alt="Head illustration"  /> */}
         <div className="px-8 py-4">
           <div className="flex justify-between flex-col  h-full ">
@@ -40,10 +40,10 @@ function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-[17%]  bg-bg-cream  font-dela">
+      <div className="flex justify-center border w-[17%]  bg-bg-cream  font-dela">
         EYEWEAR
       </div>
-      <div className="flex justify-center w-[3%]  bg-bg-cream  "></div>
+      <div className="flex justify-center w-[3%] border bg-bg-cream  "></div>
     </div>
   );
 }
