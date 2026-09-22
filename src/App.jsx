@@ -1,15 +1,19 @@
 import "./App.css";
 import Header from "./Components/header/header";
-import LandingPage from "./Components/Landing-Page/Landing-page";
-import Section1 from "./Components/Landing-Page/Section1";
-import Footer from "./Components/footer/footer"
+import Landingpage from "./Components/Landing-Page/Landingpage";
+import SectionOne from "./Components/sections/SectionOne";
+import SectionTwo from "./Components/sections/SectionTwo";
+
 
 function App() {
   return <>
   <Header/>
-  <LandingPage/>
-  <Section1/>
-  <Footer/>
+  <Landingpage/>
+  <SectionOne/>
+  <SectionTwo/>
+  
+  
+  
   
   </>;
 }
