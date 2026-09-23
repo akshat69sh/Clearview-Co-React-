@@ -87,7 +87,7 @@ function SectionTwo() {
 
       <div className="grid grid-cols-4 grid-rows-2 gap-6 mx-10 my-5  h-[55%] ">
         {featureCollection.map((cardInfo) => (
-          <FeatureCard key={cardInfo.key} {...cardInfo} />
+          <FeatureCard key={cardInfo.key} imageSrc={cardInfo.imageSrc} isImage={cardInfo.isImage} tagNum={cardInfo.tagNum} tagText={cardInfo.tagText} isOpposite={cardInfo.isOpposite} />
         ))}
       </div>  
 
