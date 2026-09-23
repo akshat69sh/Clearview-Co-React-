@@ -1,5 +1,5 @@
-import React from "react";
 import Crosshairdivider from "../Crosshairdivider/crosshairdivider";
+
 function SectionThree() {
   return (
     <div className="bg-[#231e1d] w-full h-fit">
@@ -23,9 +23,9 @@ function SectionThree() {
           </span>
         </div>
         <div className="h-fit w-[40%] flex flex-row ">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
         </div>
         <div className="h-fit w-[30%] flex flex-row items-center gap-5">
           <span className="border border-accent-orange rounded-full w-5 h-5 p-0 bg-accent-orange "></span>
