@@ -1,4 +1,7 @@
-import React from "react";
+
+
+import { NavLink } from 'react-router-dom';
+
 
 function FeatureCard({ isImage, imageSrc, tagNum, tagText, isOpposite }) {
   return (
@@ -14,6 +17,7 @@ function FeatureCard({ isImage, imageSrc, tagNum, tagText, isOpposite }) {
           <div className="w-full h-full bg-gray-300 flex items-center justify-center p-4">
             {tagNum && <span className="text-lg font-bold">{tagNum}</span>}
             {tagText && <p className="text-center">{tagText}</p>}
+             <NavLink to="/">Click Me</NavLink>
           </div>
         )}
       </div>
