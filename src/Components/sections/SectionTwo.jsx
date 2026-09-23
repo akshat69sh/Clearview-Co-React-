@@ -38,7 +38,7 @@ function SectionTwo() {
       </div>
       {/* Shop now div */}
       <div className="w-full h-[10%] bg-accent-orange">
-            akshat
+            
       </div>
     </div>
   );
